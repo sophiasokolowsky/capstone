@@ -1,0 +1,116 @@
+body, html {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #2e1e17;
+    color: white;
+  }
+  
+  /* header - small one becsause a lot of content to fit below ... and don't want users to scroll since this will be on ipad or something */
+  .header {
+    background-color: white;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .nav a {
+    color: #2e1e17;
+    margin-left: 30px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .preferences {
+    background-color: #4d3024;
+    margin: 40px auto;
+    padding: 40px 20px;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .back {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  
+  .text {
+    color: #d9c8b9;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  .options-column {
+    background-color: #eee;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 28%;
+  }
+  
+  .options-column h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .item {
+    background-color: #d9534f;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .item.selected {
+    outline: 3px solid #5cb85c;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  #start {
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }

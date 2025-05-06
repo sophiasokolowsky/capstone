@@ -3,7 +3,6 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>New Interface Laundry Options</title>
-    <!-- import CSS styles -->
     <link rel="stylesheet" href="laundry_options.css" /> 
   </head>
 
@@ -12,32 +11,30 @@
       <img src="./assets/brown_logo_header.png">
     </div>
     <nav class="nav">
-      <a href="#">HELP</a>
-      <a href="#">SIGN OUT</a>
-      <a href="#">ABOUT US</a>
+      <a href="help.html">HELP</a>
+      <a href="homepage.html">SIGN OUT</a>
     </nav>
   </header>
 
-  <!-- Main Content -->
-  <main class="dashboard">
-    <!-- Start a Load -->
+  <main class="options">
     <section class="panel start-load">
       <h2>START A LOAD</h2>
       <p>Click on an available machine:</p>
-      <div class="machine-grid">
-        <button>Washer #1</button>
-        <button>Washer #2</button>
-        <button>Dryer #1</button>
-        <button>Washer #3</button>
+      <div class="machines">
+        <a href="start_load.html" class="machine">Washer #1</a>
+        <a href="start_load.html" class="machine">Washer #2</a>
+        <a href="start_load.html" class="machine">Dryer #1</a>
+        <a href="start_load.html" class="machine">Washer #3</a>
+        <a href="start_load.html" class="machine">Washer #5</a>
+        <a href="start_load.html" class="machine">Dryer #2</a>
       </div>
     </section>
 
-    <!-- Check Status -->
     <section class="panel check-status">
       <h2>CHECK LOAD STATUS</h2>
       <p>You have - 1 - current cycle. Click on it to see more:</p>
-      <div class="machine-grid">
-        <button>Washer #4</button>
+      <div class="machines">
+        <a href="status.html" class="machine">Washer #4</a>
       </div>
     </section>
   </main>

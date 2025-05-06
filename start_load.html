@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Interface Start Load</title>
+    <link rel="stylesheet" href="start_load.css" /> 
+  </head>
+
+  <header class="header">
+    <div class="logo">
+      <img src="./assets/brown_logo_header.png">
+    </div>
+    <nav class="nav">
+      <a href="help.html">HELP</a>
+      <a href="homepage.html">SIGN OUT</a>
+    </nav>
+  </header>
+
+  <main class="preferences">
+    <a href="laundry_options.html" class="back">&#8592;</a> <!-- looked up how to write a back arrow in html to find that code -->
+
+    <h1>SET YOUR WASH PREFERENCES:</h1>
+    <p class="text">Click the colored box to select setting:</p>
+
+    <div class="options">
+      <div class="options-column">
+        <h2>WATER TEMP:</h2>
+        <div class="item" data-group="temp">Hot</div>
+        <div class="item" data-group="temp">Warm</div>
+        <div class="item" data-group="temp">Cool</div>
+      </div>
+
+      <div class="options-column">
+        <h2>SOIL LEVEL:</h2>
+        <div class="item" data-group="soil">Heavy</div>
+        <div class="item" data-group="soil">Regular</div>
+        <div class="item" data-group="soil">Light</div>
+      </div>
+
+      <div class="options-column">
+        <h2>FABRIC TYPE:</h2>
+        <div class="item" data-group="fabric">Whites</div>
+        <div class="item" data-group="fabric">Colors</div>
+        <div class="item" data-group="fabric">Delicates</div>
+      </div>
+    </div>
+
+    <button id="start">START</button>
+  </main>
+
+  <script src="start_load.js"></script>
+</body>
+</html>
